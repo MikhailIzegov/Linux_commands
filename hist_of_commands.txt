@@ -1,0 +1,46 @@
+где я сейчас нахожусь:   41  pwd
+создать директорию:      42  mkdir school
+поменять (зайти в) директорию:     43  cd school
+создать 3 директории:    44  mkdir 9th_grade 10th_grade 11th_grade
+поменять (зайти в) директорию:   45  cd 9th_grade
+создать файл и наполнить его содержимым (ctrl + c - выход):   51  cat > Ivanov_student_card.txt
+создать файл и наполнить его содержимым (ctrl + c - выход):   52  cat > Sidorov_student_card.txt
+создать файл и наполнить его содержимым (ctrl + c - выход):   53  cat > Valueva_student_card.txt
+вывести список всех файлов:   54  ls
+добавить изменения в файл:   70  cat >> Ivanov_student_card.txt
+просмотреть содержимое файла:   71  cat Ivanov_student_card.txt..
+добавить изменения в файл:   74  cat >> Sidorov_student_card.txt
+просмотреть содержимое файла:   **cat Sidorov_student_card.txt**
+создать файл и наполнить его содержимым:   80  cat > Valueva_student_card.txt
+просмотреть содержимое файла:   81  cat Valueva_student_card.txt
+создать пустой файл:   83  touch Ponomareva_extended_card.txt
+вывести список всех файлов:   84  ls
+открыть файл в графич. редакторе vim:   85  vim Ponomareva_extended_card.txt
+просмотреть содержимое файла:   88  cat Ponomareva_extended_card.txt
+открыть окно в проводнике:   89  explorer .
+переименовать файл (изменен формат файла):  90  mv Ponomareva_extended_card.txt Ponomareva_extended_card.json
+открыть файл в графич. редакторе vim (json подсвечен):   92  vim Ponomareva_extended_card.json
+создать пустой файл:   93  touch Izegov_extended_card.json
+открыть файл в графич. редакторе vim:   94  vim Izegov_extended_card.json
+создать 3 директории:   96  mkdir Maths Chemistry Physics
+вывести содержимое (со скрытыми папками):   97  ls -a
+открыть файл в графич. редакторе vim:   98  vim Ivanov_student_card.txt
+вернуться в родительскую директорию:  100  cd ..
+поменять (зайти в) директорию:  101  cd 9th_grade
+переместить файл в другую директорию:  115  mv Sidorov_student_card.txt c:/Users/Миша/school/10th_grade
+переместить файл в другую директорию:  116  mv Valueva_student_card.txt c:/Users/Миша/school/10th_grade
+  118  cd ..
+  119  cd 10th_grade
+  121  cd ..
+  122  cd 9th_grade
+скопировать файл в... :  123  cp Izegov_extended_card.json Maths
+скопировать файл в... :  124  cp Ponomareva_extended_card.json Maths
+найти файл по имени:   125  find . -name Ivanov_student_card.txt -print
+найти строки по текстовому паттерну внутри файла:  129  grep Hello Ivanov_student_card.txt
+найти строки по текстовому паттерну внутри файла:  131  grep ! Ivanov_student_card.txt
+вывести несколько первых строк из файла:  132  head -3 Ivanov_student_card.txt 
+вывести несколько последних строк из файла:  133  tail -2 Ivanov_student_card.txt 
+посмотреть содержимое длинного файла:  134  less Ivanov_student_card.txt 
+вывести дату и врем:  135  date
+  136  cd ..
+записать в текстовый файл историю команд:  137  history >> hist.txt
