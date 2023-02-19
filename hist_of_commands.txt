@@ -10,7 +10,7 @@
 добавить изменения в файл:   70  cat >> Ivanov_student_card.txt
 просмотреть содержимое файла:   71  cat Ivanov_student_card.txt..
 добавить изменения в файл:   74  cat >> Sidorov_student_card.txt
-просмотреть содержимое файла:   **cat Sidorov_student_card.txt**
+просмотреть содержимое файла:   cat Sidorov_student_card.txt
 создать файл и наполнить его содержимым:   80  cat > Valueva_student_card.txt
 просмотреть содержимое файла:   81  cat Valueva_student_card.txt
 создать пустой файл:   83  touch Ponomareva_extended_card.txt
